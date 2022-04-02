@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/main.js",
     "prettier": "npx prettier --write .",
-    "commit":"cz"
+    "commit": "cz"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,8 @@
     "koa-multer": "^1.0.2",
     "koa-router": "^10.1.1",
     "mysql2": "^2.3.3",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "commitizen": "^4.2.4",

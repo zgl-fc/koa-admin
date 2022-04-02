@@ -28,12 +28,4 @@ connections.getConnection((err, conn) => {
   })
 })
 
-const result = connections.query(
-  `SELECT * FROM user`,
-  function (err, results, fields) {
-    console.log(results) // results contains rows returned by server
-    console.log(fields) // fields contains extra meta data about results, if available
-  }
-)
-
 module.exports = connections.promise()
