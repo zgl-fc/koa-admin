@@ -1,4 +1,4 @@
-const APP_PORT = 8080
+const APP_PORT = 8081
 const PRIVATE_KEY = 'fc'
 module.exports = {
   APP_PORT
